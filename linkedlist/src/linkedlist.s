@@ -80,5 +80,6 @@ linkedlist_print:
 	addi sp, sp, 24
 	ret
 
+.section .rodata
 .L2prompt: 
 	.asciz "%u \n"

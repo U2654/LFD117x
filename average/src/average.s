@@ -52,8 +52,6 @@ main:
     ret                 # return to caller
 
 .section .rodata
-prompt:
-.asciz "Enter numbers: "
 scanfmt:
 .asciz "%f"
 resultfmt:
